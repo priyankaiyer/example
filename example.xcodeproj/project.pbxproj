@@ -269,6 +269,7 @@
 		88D8C5C5163E89DF0015E824 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "example/example-Prefix.pch";
 				INFOPLIST_FILE = "example/example-Info.plist";
@@ -280,6 +281,7 @@
 		88D8C5C6163E89DF0015E824 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "example/example-Prefix.pch";
 				INFOPLIST_FILE = "example/example-Info.plist";
